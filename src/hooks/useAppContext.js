@@ -28,8 +28,8 @@ export const AppContextProvider = ({ children }) => {
   }, [viewed, setPetsViewed, favorites, setPetsFavorites]);
 
   const addViewed = item => {
-    setPetsViewed([...petsViewed, item]);
-    setViewed(prevViewed => [...prevViewed, item]);
+    setPetsViewed([item, ...petsViewed]);
+    setViewed(prevViewed => [item, ...prevViewed]);
   };
 
   const removeViewed = itemId => {
@@ -38,8 +38,8 @@ export const AppContextProvider = ({ children }) => {
   };
 
   const addFavorites = item => {
-    setPetsFavorites([...petsFavorites, item]);
-    setFavorites(prevFavorites => [...prevFavorites, item]);
+    setPetsFavorites([item, ...petsFavorites]);
+    setFavorites(prevFavorites => [item, ...prevFavorites]);
   };
 
   const removeFavorites = itemId => {
