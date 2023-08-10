@@ -1,0 +1,3 @@
+files:
+  - source: /cat-or-dog/blob/main/README.md
+    translation: cat-or-dog/%two_letters_code%/%original_file_name%
