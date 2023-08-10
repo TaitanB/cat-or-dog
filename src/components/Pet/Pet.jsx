@@ -17,6 +17,7 @@ import {
   PetInfoContainer,
   PetText,
 } from './Pet.styled';
+import { offBlur } from 'helpers/offBlur';
 
 export default function Pet({ petType, pet: { url, breeds } }) {
   const {
@@ -70,9 +71,9 @@ export default function Pet({ petType, pet: { url, breeds } }) {
     }
   };
 
-  const onViewed = () => {
+  const onViewed = event => {
     const ViewedIndex = petsViewed.findIndex(viewe => viewe.id === id);
-
+    offBlur(event);
     if (ViewedIndex === -1) {
       const newViewed = { id, url, breeds };
       addViewed(newViewed);
@@ -139,7 +140,7 @@ export default function Pet({ petType, pet: { url, breeds } }) {
               Weight: <PetText>{weight.imperial} pound</PetText>,{' '}
               <PetText>{weight.metric} kg</PetText>.
             </PetInfo>
-          )}{' '}
+          )}
           {origin && (
             <PetInfo>
               Origin: <PetText> {origin}</PetText>
