@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/cat-or-dog/static/css/main.dc06b53b.css",
+    "main.js": "/cat-or-dog/static/js/main.475201c5.js",
+    "static/js/148.16a68ce4.chunk.js": "/cat-or-dog/static/js/148.16a68ce4.chunk.js",
+    "static/js/199.2238a832.chunk.js": "/cat-or-dog/static/js/199.2238a832.chunk.js",
+    "static/js/829.550a9e7c.chunk.js": "/cat-or-dog/static/js/829.550a9e7c.chunk.js",
+    "static/js/836.290d8317.chunk.js": "/cat-or-dog/static/js/836.290d8317.chunk.js",
+    "static/js/347.d695ee51.chunk.js": "/cat-or-dog/static/js/347.d695ee51.chunk.js",
+    "static/js/614.9d5ac7c0.chunk.js": "/cat-or-dog/static/js/614.9d5ac7c0.chunk.js",
+    "static/js/468.4d55fa9f.chunk.js": "/cat-or-dog/static/js/468.4d55fa9f.chunk.js",
+    "static/js/19.efa8bcce.chunk.js": "/cat-or-dog/static/js/19.efa8bcce.chunk.js",
+    "static/js/705.e22cfa8c.chunk.js": "/cat-or-dog/static/js/705.e22cfa8c.chunk.js",
+    "static/js/265.83dd3d83.chunk.js": "/cat-or-dog/static/js/265.83dd3d83.chunk.js",
+    "static/media/tracksLeft.png": "/cat-or-dog/static/media/tracksLeft.34bcc716b5d629d98566.png",
+    "static/media/tracksRight.png": "/cat-or-dog/static/media/tracksRight.b4962a972f1a21038ce2.png",
+    "index.html": "/cat-or-dog/index.html",
+    "main.dc06b53b.css.map": "/cat-or-dog/static/css/main.dc06b53b.css.map",
+    "main.475201c5.js.map": "/cat-or-dog/static/js/main.475201c5.js.map",
+    "148.16a68ce4.chunk.js.map": "/cat-or-dog/static/js/148.16a68ce4.chunk.js.map",
+    "199.2238a832.chunk.js.map": "/cat-or-dog/static/js/199.2238a832.chunk.js.map",
+    "829.550a9e7c.chunk.js.map": "/cat-or-dog/static/js/829.550a9e7c.chunk.js.map",
+    "836.290d8317.chunk.js.map": "/cat-or-dog/static/js/836.290d8317.chunk.js.map",
+    "347.d695ee51.chunk.js.map": "/cat-or-dog/static/js/347.d695ee51.chunk.js.map",
+    "614.9d5ac7c0.chunk.js.map": "/cat-or-dog/static/js/614.9d5ac7c0.chunk.js.map",
+    "468.4d55fa9f.chunk.js.map": "/cat-or-dog/static/js/468.4d55fa9f.chunk.js.map",
+    "19.efa8bcce.chunk.js.map": "/cat-or-dog/static/js/19.efa8bcce.chunk.js.map",
+    "705.e22cfa8c.chunk.js.map": "/cat-or-dog/static/js/705.e22cfa8c.chunk.js.map",
+    "265.83dd3d83.chunk.js.map": "/cat-or-dog/static/js/265.83dd3d83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc06b53b.css",
+    "static/js/main.475201c5.js"
+  ]
+}
